@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kezdőlap - Zeg Cheerleading</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="Logo.JPEG">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="Logo.JPEG" alt="Zeg Cheerleading logó">
+      <span>Zalaegerszegi Cheerleading Sportegyesület</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Kezdőlap</a>
+      <a href="galeria.html">Galéria</a>
+      <a href="esemenyek.html">Események</a>
+      <a href="elerhetoseg.html">Elérhetőség</a>
+      <a href="jelentkezes.html" class="btn-nav">Csatlakozás</a>
+    </nav>
+
+    <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  </header
+>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Lépj be a Cheer világába!</h1>
+      <p>Energikus edzések • Látványos fellépések • Igazi csapatélmény</p>
+      <a href="jelentkezes.html" class="btn">Csatlakozz hozzánk</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Zalaegerszegi Cheerleading Sportegyesület
+  </footer>
+
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
